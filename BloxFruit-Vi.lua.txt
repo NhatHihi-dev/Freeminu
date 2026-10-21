@@ -358,7 +358,6 @@ LowCpu = function()
   t.WaterTransparency = 0
   l.GlobalShadows = false
   l.FogEnd = 9e9
-  l.Brightness = 0
   settings().Rendering.QualityLevel = "Level01"
   for i, v in pairs(g:GetDescendants()) do
     if v:IsA("Part") or v:IsA("Union") or v:IsA("CornerWedgePart") or v:IsA("TrussPart") then
@@ -12083,8 +12082,8 @@ end
 StartMainLoops()
 
 Fluent:Notify({
-  Title = "zeox.xyz/System",
-  Content = "Welcome To W-Azeox",
+  Title = "Nhat HiHi",
+  Content = "Welcome To Nhat HiHi",
   Icon = "rbxassetid://111499841631439",
   Type = "Info",
   Duration = 5
